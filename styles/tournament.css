@@ -96,4 +96,5 @@
     font-size: 2rem;
     line-height: 120%;
     color: var(--main-blue-color);
+    text-decoration: none;
 }
