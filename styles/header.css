@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    align-items: center;
+    column-gap: 0.63rem;
+    margin-top: 2.6rem;
+}
+
+.header__text {
+    font-family: "Golos Text", sans-serif;
+    font-weight: bold;
+    font-size: 1.66rem;
+    line-height: 108%;
+    text-transform: uppercase;
+    color: var(--main-gray-color);
+}
