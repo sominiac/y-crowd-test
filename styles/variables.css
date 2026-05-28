@@ -14,4 +14,7 @@
 
     /*buttons*/
     --button-hover-color: #FBCE51;
+    --button-disabled-color: #D6D6D6;
+
+    --button-transition: all 0.3s ease-in-out;
 }

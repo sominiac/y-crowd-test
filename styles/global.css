@@ -55,7 +55,7 @@
     line-height: 130%;
     text-align: center;
     color: var(--main-white-color);
-    transition: all 0.3s ease-in-out;
+    transition: var(--button-transition);
 }
 
 .button:hover {
@@ -72,4 +72,49 @@
 .button--secondary:hover {
     background-color: var(--main-black-color);
     color: var(--main-white-color);
+}
+
+.button--icon {
+    width: 4.4rem;
+    height: 4.4rem;
+    background-color: var(--text-black-color);
+    border-radius: 50%;
+    transition: var(--button-transition);
+}
+
+.button--icon:hover {
+    background-color: var(--button-hover-color);
+}
+
+.button--icon:disabled {
+    background-color: var(--button-disabled-color);
+    cursor: not-allowed;
+}
+
+.button--more {
+    width: auto;
+    height: 3.5rem;
+    border-radius: 6.2rem;
+    border: 0.1rem solid var(--main-blue-color);
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 120%;
+    padding: 0 1.2rem 0 1.2rem;
+    color: var(--main-blue-color);
+    transition: var(--button-transition);
+}
+
+.button--more:hover {
+    background-color: var(--main-blue-color);
+    color: var(--main-white-color);
+}
+
+.title {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 5.4rem;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--text-black-color);
 }
