@@ -1,0 +1,89 @@
+.stages {
+    margin-top: 20rem;
+}
+
+.stages__header {
+    max-width: 70%;
+    position: relative;
+}
+
+.stages__title {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 5.4rem;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--text-black-color);
+}
+
+.stages__link {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 120%;
+    text-transform: none;
+    text-decoration: none;
+    color: var(--main-blue-color);
+    position: absolute;
+    left: 30.1rem;
+    bottom: 1rem;
+}
+
+.stages__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 6.4rem;
+    position: relative;
+}
+
+.stages__list:after {
+    content: url("../assets/png/stages-item-decor.png");
+    position: absolute;
+    right: -6.23rem;
+    bottom: -0.5rem;
+}
+
+.stages-list__item {
+    display: flex;
+    column-gap: 1.6rem;
+    padding: 2rem;
+    background-image: url(../assets/png/stages-item-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stages-list__item:nth-child(3) {
+    grid-row: span 2;
+}
+
+.stages-list__item:nth-child(7) {
+    grid-column: span 2;
+}
+
+.stages-list__item:nth-child(7) > .stages-list__text {
+    max-width: 41.5rem;
+}
+
+.stages-list__number {
+    min-width: 3.6rem;
+    height: 3.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    background-color: var(--main-white-color);
+    font-family: "Golos Text", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 120%;;
+    color: var(--text-black-color);
+}
+
+.stages-list__text {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 120%;
+    color: var(--text-black-color);
+}
