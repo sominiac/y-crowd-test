@@ -2,10 +2,12 @@
     --main-gray-color: #595653;
     --main-black-color: #1F1F1F;
     --main-white-color: #FFFFFF;
+    --main-red-color: #F54932;
+    --main-blue-color: #3057A2;
+
+    --secondary-gray-color: #D0D0D0;
 
     --welcome-background: #E9DED4;
-
-    --running-line-background: #F54932;
 
     /*text*/
     --text-black-color: #313131;
