@@ -1,0 +1,39 @@
+.welcome {
+    max-width: 54.2rem;
+    margin-top: 6.2rem;
+    position: relative;
+}
+
+.welcome__text {
+    display: block;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 110%;
+    color: var(--text-black-color);
+    text-transform: uppercase;
+}
+
+.welcome__text--center {
+    text-align: center;
+}
+
+.welcome__text--right {
+    text-align: right;
+}
+
+.welcome__description {
+    margin-top: 2.4rem;
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 130%;
+    text-align: center;
+    color: var(--text-black-color);
+}
+
+.welcome__buttons {
+    margin-top: 4rem;
+    display: flex;
+    column-gap: 1.6rem;
+}

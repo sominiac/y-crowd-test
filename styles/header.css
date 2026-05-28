@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     column-gap: 0.63rem;
-    margin-top: 2.6rem;
 }
 
 .header__text {

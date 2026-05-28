@@ -1,4 +1,13 @@
 :root {
     --main-gray-color: #595653;
-    --main-black-color: #313131;
+    --main-black-color: #1F1F1F;
+    --main-white-color: #FFFFFF;
+
+    --welcome-background: #E9DED4;
+
+    /*text*/
+    --text-black-color: #313131;
+
+    /*buttons*/
+    --button-hover-color: #FBCE51;
 }
