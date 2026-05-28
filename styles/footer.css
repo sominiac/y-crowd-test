@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    background-color: var(--welcome-background);
+    padding: 4rem 0 7.2rem 0;
+}
+
+.footer__text {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 120%;
+    color: var(--text-black-color);
+    opacity: 0.6;
+}
