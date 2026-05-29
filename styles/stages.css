@@ -37,6 +37,7 @@
 
 .stages-list__item {
     display: flex;
+    align-items: flex-start;
     column-gap: 1.6rem;
     padding: 2rem;
     background-image: url(../assets/png/stages-item-bg.png);
