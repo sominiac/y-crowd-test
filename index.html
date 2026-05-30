@@ -142,13 +142,13 @@
 					<div class="members__header">
 						<h3 class="title">Участники турнира</h3>
 						<div class="members__buttons">
-							<button class="button--icon"><img src="./assets/svg/arrow-left.svg" alt="arrow left"></button>
+							<button class="button--icon" id="left-members-button"><img src="./assets/svg/arrow-left.svg" alt="arrow left"></button>
 							<div class="members__counter">
-								<span class="members-counter__text">3</span>
+								<span class="members-counter__text" id="members-visible-slides">0</span>
 								<span class="members-counter__text members-counter__text--disabled">/</span>
 								<span class="members-counter__text members-counter__text--disabled">6</span>
 							</div>
-							<button class="button--icon"><img src="./assets/svg/arrow-right.svg" alt="arrow right"></button>
+							<button class="button--icon" id="right-members-button"><img src="./assets/svg/arrow-right.svg" alt="arrow right"></button>
 						</div>
 					</div>
 					<div class="members__list">
@@ -221,4 +221,5 @@
 </body>
 
 <link rel="stylesheet" href="./styles/fonts.css" type='text/css'>
+<script src="./scripts/slider.js" type='text/javascript'></script>
 </html>
